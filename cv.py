@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Lopez, Alejandro",
+    page_icon="profile_pic.jpg",
+    layout="centered"
+)
+
 c1, c2 = st.columns([1, 4])
 with c1:
     st.image("profile_pic.jpg", width=100)
